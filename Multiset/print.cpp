@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    multiset<int>ms;
+    multiset<int,greater<int>>ms;
     ms.insert(1);
     ms.insert(1);
     ms.insert(2);
